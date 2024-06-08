@@ -1,7 +1,7 @@
 import { environments } from '../../../environments/environments';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, catchError, of, pipe } from 'rxjs';
 import { Hero } from '../interfaces/hero.interface';
 
 
@@ -15,8 +15,14 @@ export class HeroesService {
 
   getHeroes():Observable <Hero[]>{
     const urlHeroes= `${this.url}/heroes`;
-    console.log(`url que traigo  ${this.url}/heroes`)
     return this.http.get<Hero[]>(urlHeroes);
+  }
+
+  getHeroById(id:string):Observable<Hero | undefined>{
+    return this.http.get<Hero>(`${ this.url}/heroes/${id}`)
+    .pipe(
+      catchError( error => of(undefined) )
+    );
   }
 
 }
