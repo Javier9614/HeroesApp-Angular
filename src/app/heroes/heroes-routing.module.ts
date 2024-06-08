@@ -16,7 +16,7 @@ const routes: Routes = [
       { path:'edit/:id', component:NewHeroPageComponent },
       { path:'hero-list', component:ListPageComponent },
       { path:':id', component:HeroPageComponent },
-      { path:'**', redirectTo: 'list' },
+      { path:'**', redirectTo: 'hero-list' },
     ]
   }
 ];
