@@ -4,10 +4,14 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "backend":"json-server --watch data/db.json",
+    "backend": "json-server --watch data/db.json",
     "build": "ng build",
+    "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build:href": "ng build --base-href ./",
+ "delete:docs": "del docs",
+ "copy:dist": "copyfiles dist/heroesApp/browser/* ./docs -f"
   },
   "private": true,
   "dependencies": {
@@ -30,6 +34,8 @@
     "@angular/cli": "^18.0.2",
     "@angular/compiler-cli": "^18.0.0",
     "@types/jasmine": "~5.1.0",
+    "copyfiles": "^2.4.1",
+    "del-cli": "^5.1.0",
     "jasmine-core": "~5.1.0",
     "json-server": "^1.0.0-beta.1",
     "karma": "~6.4.0",
