@@ -21,7 +21,8 @@ import { MaterialModule } from '../material/material.module';
   imports: [
     CommonModule,
     HeroesRoutingModule,
-    MaterialModule
-  ]
+    MaterialModule,
+
+  ],
 })
 export class HeroesModule { }
