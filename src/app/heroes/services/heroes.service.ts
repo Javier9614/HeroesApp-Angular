@@ -25,4 +25,7 @@ export class HeroesService {
     );
   }
 
+  gerSuggestions(query:string):Observable<Hero[]>{
+    return this.http.get<Hero[]>(`${this.url}/heroes?q=${query}&_limit=6`);
+   }
 }
