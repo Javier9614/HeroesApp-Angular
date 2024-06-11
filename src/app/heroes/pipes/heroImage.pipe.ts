@@ -8,7 +8,7 @@ export class HeroImagePipe implements PipeTransform {
 
   transform(hero: Hero ): string {
     if(!hero.id && !hero.alter_img){
-      return 'assets/no-image.jpg';
+      return 'no-image.png';
     }
 
     if(hero.alter_img) return hero.alter_img

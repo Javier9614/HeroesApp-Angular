@@ -12,7 +12,7 @@
       "superhero": "Batman",
       "publisher": "DC Comics",
       "alter_ego": "Bruce Wayne",
-      "first_appearance": "Detective Comics #27",
+      "first_appearance": "Ah, habertelo sabido tonto",
       "characters": "Bruce Wayne"
     },
     {
@@ -28,8 +28,9 @@
       "superhero": "Flash",
       "publisher": "DC Comics",
       "alter_ego": "Jay Garrick",
-      "first_appearance": "Flash Comics #1",
-      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
+      "first_appearance": "Flash Comics #2",
+      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen",
+      "alter_img": null
     },
     {
       "id": "dc-green",
@@ -166,6 +167,42 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "WHmgoj-",
+      "superhero": "Deadpool",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Eddie Brock",
+      "first_appearance": "Como alien: Marvel Super Heroes: Secret Wars #8",
+      "characters": "Topher Grace, Tom Hardy",
+      "alter_img": "https://i.blogs.es/3f1a7b/spider-man-2-story-trailer/650_1200.jpeg"
+    },
+    {
+      "id": "C18I__L",
+      "superhero": "Deadpool",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Wade Wilson",
+      "first_appearance": "Cuando el quiso, es el puto Deadpool",
+      "characters": "Wade Wilson",
+      "alter_img": "https://img.asmedia.epimg.net/resizer/v2/YF56LVNH25HI3BFPEKA5KLBG7A.jpg?auth=b68b08b435cb8d15279865a3837406222077dcf38e7201abe89c7b1f3fd11c6e&width=1472&height=1104&smart=true"
+    },
+    {
+      "id": "a0HrPAG",
+      "superhero": "Vision",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Victor Shade",
+      "first_appearance": "Pues cuando salio",
+      "characters": "Paul Bettany",
+      "alter_img": "https://pics.craiyon.com/2023-09-13/1510e000c38d431e9ccd730d8643000e.webp"
+    },
+    {
+      "id": "I3wkRpV",
+      "superhero": "sfsadfds",
+      "publisher": "DC Comics",
+      "alter_ego": "fadff",
+      "first_appearance": "fdasfsdaf",
+      "characters": "fdsafdsfdsafa",
+      "alter_img": "https://depor.com/resizer/lSb5gOsdFlaWO-03RlVGN6SVEOM=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/QMM7EIFVIJDWVIFG6A2TNOJSYI.jpg"
     }
   ]
 }
